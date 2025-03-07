@@ -7,14 +7,10 @@ def bitwiseAnd(N, K):
                 max_val = max(val,max_val)
                 if max_val == K-1:
                     return max_val
-    
     return max_val
-            
-        
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
     t = int(input().strip())
 
     for t_itr in range(t):
